@@ -167,10 +167,21 @@ padding-top: 100px;
     border: 1px solid #fff;
     border-radius: 50px;
     margin-left: 30px;
+    transition: all 0.5s;
+    margin-bottom: 15px;
+}
+
+.hd-section3 button:hover{
+    background-color: #fff;
+
 }
 .hd-section3 svg{
     width: 25px;
     height: 25px;
+}
+.hd-section3 button:hover svg path{
+    fill: var(--color1);
+
 }
 .hd-section3 h5{
     font-size: 1.2rem;
@@ -186,12 +197,42 @@ margin-left: 10px;
     width: 10px !important;
 }
 /* ========================================================================section3-end==================================== */
-/* ========================================================================section5==================================== */
+
+/* ==================================================section5============================================================ */
+.hd-section5{
+    /* height: 600px; */
+    width: 100%;
+    background-color: #e9edf9;
+    padding-top: 150px;
+padding-bottom: 80px;
+background-image: url("./img/wave.png");
+background-repeat: no-repeat;
+background-size: 100% ; 
+background-position: center center;
+
+}
+.hd-section5 h3{
+    font-size: 5rem;
+    color: #434343;
+    line-height: 1;
+}
+
+
+.hd-section5 h3 i{
+    color: var(--color1);
+}
+.hd-section5 h3 b{
+color: var(--color1);
+font-weight: 600;
+letter-spacing: -0.03em;
+color: #1A2BC2;
+}
+/* ==================================================section5-end============================================================ */
+/* ========================================================================.lasting-surface==================================== */
 
 .blue-text{
     padding: 40px 0px;
     background-color: var(--color1);
-    margin-top: 20px;
 }
 
 .blue-text p{
@@ -239,27 +280,29 @@ margin-top: 60px;
 }
 
 .footer .line{
-width: 150px;
+width: 100px;
 height: 2px;
 background-color: #fff;
-margin-bottom: 20px;
+margin-bottom: 40px;
 }
 .footer{
     padding: 30px 40px;
     margin-top: 80px;
 }
 .footer h4{
-    font-size:1.5rem;
+    font-size:2rem;
     color: #fff;
+font-weight: 500;
+letter-spacing: -0.04em;
+line-height: 1;
 }
 
 .footer p{
-    font-size: 1.3rem;
-    color: #fff;
+font-size: 1.3rem;
+color: #fff;
 font-weight: 500;
 letter-spacing: -0.04em;
 line-height: 1.1;
 margin-top: 30px;
-
 }
-/* ========================================================================section5-end==================================== */
+/* ========================================================================.lasting-surface-end==================================== */
