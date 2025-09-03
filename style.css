@@ -14,14 +14,15 @@
     --color1:#1A2BC2;
 }
 
-.Hydrohex-box1{
+.Hydrohex-box1 {
     height: 738px;
     width: 100%;
     background-image: url("./img/hd-banner.png");
     background-position: center center;
     background-size: cover;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    flex-direction: column;
     align-items: end;
     padding: 50px 50px;
 }
@@ -210,6 +211,10 @@ background-repeat: no-repeat;
 background-size: 100% ; 
 background-position: center center;
 
+}
+
+.hd-section5 img{
+    margin-top: -100px;
 }
 .hd-section5 h3{
     font-size: 5rem;
@@ -491,4 +496,289 @@ padding-bottom: 100px;
   background-color: transparent;
   margin-top: 100px;
   margin-bottom: 100px;
+}
+
+@media (max-width: 991.98px) {
+    .Hydrohex-box1  h2 {
+    font-size: 2.5rem;
+}
+.Hydrohex-box1  h3 {
+    font-size: 2.5rem;
+}
+.Hydrohex-box1 {
+    height: 630px;
+}
+.Hydrohex-box1 p {
+    font-size: 1.22rem;
+    margin-bottom: 50px;
+}
+.hd-section2 h6 {
+    font-size: 3rem;
+    margin-top: 50px;
+}
+.hd-section3 h4 {
+    font-size: 2rem;
+    padding-right: 100px;
+}
+.hd-section3 {
+    height: 600px;
+    background-image:unset;
+    background-color: #1A2BC2;
+}
+.section4 h2 {
+    font-size: 2.3rem;
+}
+.hd-section5-row{
+    flex-direction: column-reverse;
+}
+.hd-section5 img {
+    margin-top: 0px;
+}
+.hd-section5 h3 {
+    padding-left: 70px;
+    font-size: 4rem;
+}
+.accodian-section {
+    padding-block: 40px;
+}
+.accodian-section .accordion-button {
+    font-size: 1.2rem;
+}
+.blue-text p {
+    font-size: 1.1rem;
+}
+.section-7-bottom p {
+    font-size: 1.3rem;
+}
+.section9leftcollom p {
+    font-size: 1.3rem;
+}
+.section9-row{
+    flex-direction: column-reverse;
+}
+.section9leftcollom {
+    padding: 80px 100px 80px 50px;
+}
+.section8{
+    text-align: center;
+}
+.section8 h4 {
+    font-size: 2.5rem;
+}
+.section8 img{
+    width: 30% !important;
+}
+.section8 {
+    padding: 50px 0px  0px 0px;
+}
+.section9leftcollom h4 {
+    font-size: 3rem;
+} 
+.lasting-surface h4 {
+    font-size: 2.5rem;
+    margin-bottom: 90px;
+
+}
+
+.footer p{
+    font-size: 1rem;
+}
+
+}
+
+@media (max-width: 500px) {
+.Hydrohex-box1 {
+    height: 500px;
+    align-items: start;
+    padding: 30px 30px;
+}
+.hy-box1-img{
+width:40px !important;
+height:40px !important;
+margin-bottom: 50px;
+}
+.Hydrohex-box1 .svg-btn {
+    height: 35px;
+    border: none;
+    width: 100px;
+    border-radius: 50px;
+    transition: all 0.5s;
+}
+.Hydrohex-box1 .svg-btn svg{
+    width: 50px;
+}
+.Hydrohex-box1  h2 {
+    font-size: 2rem;
+    line-height: 35px;
+    margin-top: 20px;
+}
+.Hydrohex-box1  h3 {
+    font-size: 2rem;
+}
+.Hydrohex-box1 .hd-first-btn {
+font-size: 0.7rem;
+padding: 7px 20px;
+}
+.Hydrohex-box1 p {
+    font-size: 0.8rem;
+    margin-bottom: 30px;
+}
+.Hydrohex-box1 a {
+    display: none;
+}
+.hd-section2 h4 {
+    font-size: 1.5rem;
+    margin-bottom: 60px;
+}
+.hd-section2 p {
+    font-size: 1rem;
+    padding-right: 0px;
+    padding-bottom: 20px;
+}
+.hd-section2 h6 {
+    font-size: 1.2rem;
+    margin-top: 30px;
+}
+.hd-section2 {
+    padding: 50px 0px 35px  0px;
+}
+.allflex-hd-box3{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.hd-section3 h4 {
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    line-height: 1;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+.hd-section3 h5 {
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    margin-left: 35px;
+}
+.hd-section3 button {
+    padding: 12px 40px;
+    margin-left: 17px;
+    margin-bottom: 15px;
+}
+.arrowsvg{
+    display: none;
+}
+.hd-section3 {
+    height: 550px;
+}
+.allflex-hd-box3-last {
+    margin-top: 30px;
+}
+
+.section4 img{
+    width: 70%;
+}
+.section4 h2 {
+    font-size: 1rem;
+    padding-bottom: 50px;
+}
+.section4 h3 {
+    font-size: 1.5rem;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.section4 button {
+    font-size: 1rem;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.section4 {
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.hd-section5 h3 {
+    padding-left: 70px;
+    font-size: 2rem;
+}
+.hd-section5 {
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+.blue-text p {
+    font-size: 0.7rem;
+    padding-inline: 30px;
+}
+.accodian-section h5 {
+    font-size: 1.5rem;
+}
+.accodian-section p {
+    font-size: 1rem;
+    padding-right: 0px;
+    margin-top: 30px;
+}
+.accodian-section .accordion-body {
+    font-size: 0.8rem;
+    padding-block: 20px;
+}
+.accodian-section .accordion-button {
+    font-size: 1rem;
+}
+.accodian-section .accordion-button::after {
+    width: 12px !important;
+    height: 12px !important;
+
+}
+.section-7-bottom {
+    padding: 30px;
+    text-align: center;
+}
+.section-7-bottom p {
+    font-size: 0.7rem;
+}
+.section8 h4 {
+    font-size: 1.5rem;
+}
+.section9leftcollom {
+    padding: 40px;
+}
+.section9leftcollom h4 {
+    font-size: 1.5rem;
+}
+.section9leftcollom p {
+    font-size: 0.9rem;
+    margin-top: 30px;
+}
+.lasting-surface h4 {
+    color: #434343;
+    font-size: 1.5rem;
+    width: unset;
+    font-weight: 500;
+    letter-spacing: -0.04em;
+    line-height: 1;
+    margin-top: 50px;
+    padding-left: 100px;
+    margin-bottom: 50px;
+}
+.lasting-surface img {
+    width: 80%;
+}
+.lasting-surface p {
+    font-size: 1rem;
+    padding-inline: 20px;
+    margin-top: 30px;
+}
+.footer h4 {
+    font-size: 1.5rem;
+}
+.footer p {
+    font-size: 0.8rem;
+    margin-top: 20px;
+}
 }
